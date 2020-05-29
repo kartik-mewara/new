@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   <head>
+
+   </head>
+   <style>
+   a:link, a:visited {
+     background-color:blue;
+     color: white;
+     padding: 14px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+   }
+
+   a:hover, a:active {
+     background-color: red;
+   }
+   </style>
+   <body>
+   <h2>Welcome to phone directory</h2>
+   <form action="/create-contact" method="post">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" ><br>
+  <br>
+  <label for="pnumber">Phone Number:</label><br>
+  <input type="text" id="pnumber" name="pnumer"><br>
+  <br>
+  <label for="email">E Mail:</label><br>
+  <input type="text" id="email" name="email"><br>
+  <br>
+
+ <button type="submit">Add contact</button>
+</form>
+
+
+
+   </body>
+</html>
